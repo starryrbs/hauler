@@ -10,5 +10,4 @@ before_install:
   - cd server && go mod tidy
 
 script:
-  - pwd
-  - cd server && go test
+  - go test
